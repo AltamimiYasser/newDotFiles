@@ -14,4 +14,5 @@ alias vimrc='vim ~/.vimrc'
 alias pa='sudo pacman'
 alias autoremove='sudo pacman -Qtdq | pacman -Rns -'
 alias grub-update="sudo grub-mkconfig -o /boot/grub/grub.cfg"
-alias ls="ls -Al --color=auto"
+alias ls="exa -a"
+alias ls1="exa -a1"
