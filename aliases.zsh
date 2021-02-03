@@ -11,7 +11,7 @@ alias v='vim'
 alias sv='sudo vim'
 alias zshrc='vim ~/.zshrc'
 alias vimrc='vim ~/.vimrc'
-alias cat='bat'
 alias pa='sudo pacman'
 alias autoremove='sudo pacman -Qtdq | pacman -Rns -'
 alias grub-update="sudo grub-mkconfig -o /boot/grub/grub.cfg"
+alias ls="ls -Al --color=auto"
